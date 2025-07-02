@@ -281,15 +281,15 @@ left:319px;
    max-width: 100%;
 }
 
-.person__image_size_l {
+.person__image__size_l {
   width: 140px;
 }
 
-.person__image_size_m {
+.person__image__size_m {
   width: 100px;
 }
 
-.person__image_size_s {
+.person__image__size_s {
    width: 80px;
 }
 
