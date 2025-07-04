@@ -306,39 +306,37 @@ left:319px;
 }
 
 .membership__title {
-  max-width: 574px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
   text-align: center;
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 52px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .membership__steps {
-  list-style-type: none;
-  padding:0;
-  margin: 100px 0 0;
-  margin-left: 300px;
-  margin-right: 300px;
-  flex-basis: auto;
-  display: inline-flex;
+  list-style-type:none;
+  padding: 0;
+  margin: 60px auto 0 auto;
+  max-width: 1600px;
+  justify-content: center;
+  display: flex;
   gap: 40px;
-
-
 }
 
 .step {
-  flex-basis: auto;
   width:220px;
+  text-align: left;
 }
 
 .step__title {
-  margin: 0;
+  margin:0 0 8px 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   display: flex;
   align-items: center;
+
 }
 
 .step__icon {
@@ -346,7 +344,9 @@ left:319px;
 }
 
 .step__description {
-  margin: 10px 0 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .footer {
