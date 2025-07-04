@@ -306,18 +306,18 @@ left:319px;
 }
 
 .membership__title {
-  max-width: 1000px;
-  margin: 0 auto 40px auto;
+  max-width: 574px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
 }
 
 .membership__steps {
   list-style-type:none;
   padding: 0;
-  margin: 60px auto 0 auto;
+  margin: 100px 0 0;
   max-width: 1600px;
   justify-content: center;
   display: flex;
@@ -325,12 +325,12 @@ left:319px;
 }
 
 .step {
-  width:220px;
+  flex-basis:220px;
   text-align: left;
 }
 
 .step__title {
-  margin:0 0 8px 0;
+  margin:0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
@@ -344,58 +344,43 @@ left:319px;
 }
 
 .step__description {
-  margin: 0;
-  font-size: 16px;
-  line-height: 24px;
+  margin: 10px 0 0;
+
 }
 
 .footer {
   box-sizing: border-box;
-
+  padding: 60px 80px;
+  background-color: #1f1f1f;
+  color:#fff;
 
 }
 
 .footer__columns {
   display: flex;
-  max-width:1500px;
-  justify-content: space-between;
-  margin: 0 auto 60px auto;
-  width: 100%;
-  background-color: #1f1f1f;
-  color:#ffffff;
-  padding: 60px 80px;
+
 
 }
 
 .footer__column_content_hours {
-  display: flex;
-  flex-direction: column;
-  margin-top: 60px;
-  gap:16px;
+  margin-left: auto;
+
 
 }
 
 .footer__column_content_social {
-  margin-right: 80px;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  margin-left: 80px;
 
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
-  margin-top: 60px;
-  margin-left: 80px;
   display:block;
 }
 
 .footer__column-heading {
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
+margin-bottom: 20px;
 }
 
 .footer__list {
@@ -413,25 +398,18 @@ line-height: 24px;
   color: #ffffff;
   text-decoration: none;
   display: flex;
-  gap: 8px;
-  font-size: 16px;
-  line-height: 20px;
+  column-gap: 10px;
   align-items: center;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  display: inline-block;
 
 }
 
 .footer__copyright {
-  font-size: 14px;
-  line-height: 20px;
   margin-top: 100px;
-  margin-left: 80px;
-
 
 }
 
